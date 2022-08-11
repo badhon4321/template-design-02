@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Fredoka One', cursive;
+}
+
+
+/* header part start */
+header{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0px;
+    justify-content: space-between ;
+}
+header h2{
+    font-size: 33px;
+    color:  #F56300;
+}
+header span{
+    color: #E70072;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    color: #E70072;
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+nav ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E70072;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  nav ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  /* header part end */
+
+  /* bannner part start */
+/* top banner start */
+.banner{
+    margin-bottom: 80px;
+}
+.banner .top-banner{
+    color: white;
+    text-align: center;
+    background-color: #F56300;
+}
+.banner .top-banner p {
+    font-size: 13px;
+    padding-top: 10px;
+    letter-spacing: .8px;
+    color: rgb(224, 220, 220);
+}
+.banner .top-banner h5{
+    color: rgb(241, 237, 237);
+    letter-spacing: 1px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    text-decoration-line: underline;
+    font-weight: 100;
+}
+/* top banner end */
+
+
+/* middle banner start */
+.banner .middle-banner{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+.banner .middle-banner img{
+    width: 300px;
+    border-radius: 50%;
+}
+.banner .middle-banner .middle h3{
+    font-size: 55px;
+    color:  #F56300;
+    letter-spacing: .8px;
+}
+.banner .middle-banner .middle h3 span{
+    color:  #E70072;
+}
+.banner .middle-banner .middle h4{
+    letter-spacing: 2px;
+    padding-top: 16px;
+    color: rgb(24, 23, 23);
+     font-size: 16px;
+}
+/* middle banner end */
+
+
+/* bottom banner start */
+.banner .bottom-banner{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    gap: 20px;
+}
+.bottom-banner .second{
+    margin-top: -15px;
+}
+.bottom-banner .third{
+    margin-top: -16px;
+}
+.banner .bottom-banner img{
+    width: 250px;
+    padding-left: 100px;
+}
+.bottom-banner .third .third-img{
+    width: 240px;
+}
+.banner .bottom-banner p,h2{
+    text-align: center;
+}
+.banner .bottom-banner h2{
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 80%;
+    padding: 10px 0px;
+}
+.banner .bottom-banner p{
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 90%;
+}
+/* bottom banner end */
+
+
+/* bottom button start  */
+.bottom-buttons{
+    text-align: center;
+    padding-top: 18px;
+}
+.bottom-buttons button{
+    padding: 9px 50px;
+    border-radius: 38px;
+    margin-left: 14px;
+    font-size: 15px;
+    font-weight: 900;
+    color:  #E70072;
+    border: 2px solid #E70072;
+    transition: .6s;
+    font-family: 'Fredoka One', cursive;
+    font-size: 12px;
+}
+.bottom-buttons button:hover{
+    color: white;
+    background-color: #E70072;
+}
+/* bottom button end */
+/* banner part end */
